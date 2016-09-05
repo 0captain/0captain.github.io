@@ -27,8 +27,8 @@ google_analytics:
 
 # Social Accounts
 twitter_url: javascript:;
-facebook_url: javascript
-behance_url: javascript
+facebook_url: javascript:;
+behance_url: javascript:;
 googleplus_url: javascript:;
 dribble_url: javascript:;
 rss_url: javascript:;

@@ -22,8 +22,8 @@ g co master; g pull
 
 # KEEP .git, .gitignore, node_modules; REMOVE others
 
-g ci -m 'switch theme xxx'
 # ( optional ) add a temporary index.html
+g ci -am 'switch theme xxx'
 g push origin master:master
 
 g co gh-pages; hexo generate; hexo deploy

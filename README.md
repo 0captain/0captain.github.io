@@ -20,11 +20,12 @@ npm i hexo-cli -g --no-optional
 ```shell
 g co master; g pull
 
-# REMOVE files in './*' listed in 'public/*' (NOT 'public/*')
+# drop old site:
+rm -fr `ls ./public`; rm -fr ./public
 
 # ( optional ) add a temporary index.html
 g ci -am 'switch theme xxx'
-g push origin master:master
+g push origin master
 
 g co gh-pages; hexo generate; hexo deploy
 ```

@@ -20,7 +20,8 @@ npm i hexo-cli -g --no-optional
 ```shell
 g co master; g pull
 
-# KEEP .git, .gitignore, node_modules; REMOVE others
+# KEEP .git, .gitignore, and files listed in .gitignore
+# REMOVE others
 
 # ( optional ) add a temporary index.html
 g ci -am 'switch theme xxx'

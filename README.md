@@ -20,8 +20,7 @@ npm i hexo-cli -g --no-optional
 ```shell
 g co master; g pull
 
-# KEEP .git, .gitignore, public, AND files listed in .gitignore
-# REMOVE others( files listed in public/ )
+# REMOVE files in './*' listed in 'public/*' (NOT 'public/*')
 
 # ( optional ) add a temporary index.html
 g ci -am 'switch theme xxx'

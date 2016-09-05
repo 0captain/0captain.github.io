@@ -7,10 +7,12 @@ menu:
 default_post_title: ooooooooops
 
 # Default post cover index page
-default_cover_index: "http://placehold.it/450x450"
+#default_cover_index: "http://placehold.it/450x450"
+default_cover_index: "https://placeholdit.imgix.net/~text?txtsize=52&bg=000000&txtclr=ffffff&txt=-.-.-.--&w=450&h=450&fm=png"
 
 # Default post cover index page
-default_cover_detail: "http://placehold.it/1300x500"
+#default_cover_detail: "http://placehold.it/1300x500"
+default_cover_index: "https://placeholdit.imgix.net/~text?txtsize=52&bg=000000&txtclr=ffffff&txt=-.-.-.--&w=1300&h=500&fm=png"
 
 # Comments. Choose one by filling up the information
 comments:
